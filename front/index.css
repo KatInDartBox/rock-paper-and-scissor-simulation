@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15pt;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:root {
+  background: #363636;
+  color: #cecece;
+}
+
+.btn {
+  outline: none;
+  background: #ff4500;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  color: #eaeaea;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-bottom: 6px;
+}
+
+.info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 24px;
+}
+.label {
+  width: 80px;
+  display: inline-block;
+}
